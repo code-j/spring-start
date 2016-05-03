@@ -126,14 +126,9 @@
 
 		<dependency>
 			<groupId>com.gmon</groupId>
-			<artifactId>coreruby</artifactId>
+			<artifactId>gmon-module-app</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-        <dependency>
-            <groupId>com.gmon</groupId>
-            <artifactId>coreruby</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
     </dependencies>
     <build>
         <plugins>

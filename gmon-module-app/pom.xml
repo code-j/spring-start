@@ -23,7 +23,7 @@
     </dependency>
     <dependency>
     	<groupId>com.gmon</groupId>
-    	<artifactId>deal</artifactId>
+    	<artifactId>gmon-module-deal</artifactId>
     	<version>0.0.1-SNAPSHOT</version>
     </dependency>
   </dependencies>
