@@ -1,4 +1,4 @@
-package com.myspring.ruby.com.myspring.ruby.model;
+package com.myspring.ruby.model;
 
 /**
  * Created by woohyunjo on 2016-05-03.

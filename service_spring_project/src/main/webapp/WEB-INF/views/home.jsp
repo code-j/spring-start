@@ -12,6 +12,7 @@
 
 <P>  The time on the server is ${serverTime}. </P>
 <P>  The server name is ${serverName}. </P>
+<P>  The service name is ${serviceName}. </P>
 
 </body>
 </html>

@@ -1,12 +1,13 @@
 package com.myspring.ruby;
 
-import com.myspring.ruby.com.myspring.ruby.model.TemplateModel;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.myspring.ruby.model.TemplateModel;
 
 /**
  * Created by woohyunjo on 2016-05-03.
