@@ -1,5 +1,6 @@
 package com.myspring.ruby;
 
+import com.gmon.coreruby.App;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
@@ -32,8 +33,8 @@ public class HomeController {
 		String formattedDate = dateFormat.format(date);
 		
 		model.addAttribute("serverTime", formattedDate );
-        model.addAttribute("serverName", "service_spring_project");
-		//model.addAttribute("serverName", new App().getName());
+//        model.addAttribute("serverName", "service_spring_project");
+		model.addAttribute("serverName", new App().getName());
 	
 
 		return "home";
